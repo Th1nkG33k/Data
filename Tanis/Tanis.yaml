@@ -1,0 +1,60 @@
+dataset:
+  name: Tanis
+  version: '1.0'
+  stage: statistics_generated
+  tile_count: 30
+  role: evaluation
+  structure: aoi_grid
+paths:
+  root: Data/Datasets/Tanis
+  raw_s2: Raw/S2
+  raw_dem: Raw/DEM
+  raw_soil: Raw/Soil
+  raw_ground_truth: Raw/GroundTruth
+  processed_tiles: Dataset
+  visuals_dir: Visuals
+  tile_manifest: tile_manifest.csv
+  channel_stats: channel_stats.json
+tile_structure:
+  width: 512
+  height: 512
+  tile_format: tif
+AOI:
+  min_lat: 31.83312522597098
+  max_lat: 31.95878135390067
+  min_lon: 30.889942631510188
+  max_lon: 30.960037498425613
+bands:
+  included:
+  - B2
+  - B3
+  - B4
+  - B8
+  - B11
+  - B12
+  - SCL
+  - NDVI
+  - BSI
+  rgb_order:
+  - B4
+  - B3
+  - B2
+crs:
+  epsg: 4326
+normalisation:
+  method: robust_zscore
+  stats_source: channel_stats.json
+  clip:
+  - -5.0
+  - 5.0
+processing:
+  resolution: 10m
+  include_dem: true
+  include_soil: true
+  include_indices: true
+  include_qc_mask: true
+provenance:
+  created_by: Terra-AId
+  version: '2.0'
+  note: Temporary downloaded-stage dataset config. Download processing will be hooked
+    in later.

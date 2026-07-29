@@ -1,0 +1,43 @@
+{
+  "tile_id": "10",
+  "tile_name": "tile 10",
+  "source_s2_path": "C:\\Uni\\Terra-AID\\Data\\Datasets\\Tanis\\Raw\\S2\\images\\tile 10\\tile 10.tif",
+  "source_tile_folder": "Tanis",
+  "bands": [
+    "B2",
+    "B3",
+    "B4",
+    "B8",
+    "B11",
+    "B12",
+    "SCL",
+    "VV",
+    "VH",
+    "NDVI",
+    "BSI"
+  ],
+  "height": 220,
+  "width": 257,
+  "crs": "EPSG:4326",
+  "qc_path": "C:\\Uni\\Terra-AID\\Data\\Datasets\\Tanis\\Dataset\\tile 10\\QC.tif",
+  "indices_path": "C:\\Uni\\Terra-AID\\Data\\Datasets\\Tanis\\Dataset\\tile 10\\indices.tif",
+  "model_input_path": "C:\\Uni\\Terra-AID\\Data\\Datasets\\Tanis\\Dataset\\tile 10\\model_input.tif",
+  "valid_mask_path": "C:\\Uni\\Terra-AID\\Data\\Datasets\\Tanis\\Dataset\\tile 10\\valid_mask.tif",
+  "model_input_channels": [
+    "B2",
+    "B3",
+    "B4",
+    "B8",
+    "B11",
+    "B12",
+    "NDVI",
+    "BSI"
+  ],
+  "model_input_channel_count": 8,
+  "model_input_nan_fraction": 0.0,
+  "valid_pixel_fraction": 1.0,
+  "profile_name": "derived_8ch",
+  "s2_path": "C:\\Uni\\Terra-AID\\Data\\Datasets\\Tanis\\Dataset\\tile 10\\S2_stack.tif",
+  "soil_path": "C:\\Uni\\Terra-AID\\Data\\Datasets\\Tanis\\Dataset\\tile 10\\SOIL.tif",
+  "has_ground_truth": false
+}
