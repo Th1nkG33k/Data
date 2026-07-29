@@ -1,0 +1,39 @@
+{
+  "tile_id": "tile_11_11",
+  "bands": [
+    "B2",
+    "B3",
+    "B4",
+    "B8",
+    "B11",
+    "B12",
+    "SCL",
+    "NDVI",
+    "BSI"
+  ],
+  "height": 335,
+  "width": 491,
+  "crs": "EPSG:4326",
+  "qc_path": "C:\\Uni\\Python\\Terra-AID\\Data\\Datasets\\ground_truth\\Dataset\\tile tile_11_11\\QC.tif",
+  "indices_path": "C:\\Uni\\Python\\Terra-AID\\Data\\Datasets\\ground_truth\\Dataset\\tile tile_11_11\\indices.tif",
+  "model_input_path": "C:\\Uni\\Python\\Terra-AID\\Data\\Datasets\\ground_truth\\Dataset\\tile tile_11_11\\model_input.tif",
+  "valid_mask_path": "C:\\Uni\\Python\\Terra-AID\\Data\\Datasets\\ground_truth\\Dataset\\tile tile_11_11\\valid_mask.tif",
+  "model_input_channels": [
+    "B2",
+    "B3",
+    "B4",
+    "B8",
+    "B11",
+    "B12",
+    "NDVI",
+    "BSI"
+  ],
+  "model_input_channel_count": 8,
+  "model_input_nan_fraction": 0.0,
+  "valid_pixel_fraction": 1.0,
+  "profile_name": "derived_8ch",
+  "s2_path": "C:\\Uni\\Python\\Terra-AID\\Data\\Datasets\\ground_truth\\Dataset\\tile tile_11_11\\S2_stack.tif",
+  "soil_path": "C:\\Uni\\Python\\Terra-AID\\Data\\Datasets\\ground_truth\\Dataset\\tile tile_11_11\\SOIL.tif",
+  "ground_truth_path": "C:\\Uni\\Python\\Terra-AID\\Data\\Datasets\\ground_truth\\Dataset\\tile tile_11_11\\ground_truth.tif",
+  "has_ground_truth": true
+}
