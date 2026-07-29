@@ -1,0 +1,1 @@
+{"type":"FeatureCollection","features":[{"type":"Feature","geometry":{"type":"MultiPoint","coordinates":[]},"id":"0","properties":{"bands":["B2","B3","B4","B8","B11","B12","SCL","NDVI","BSI"],"bbox":[[[-0.705,51.6],[-0.655,51.6],[-0.655,51.63],[-0.705,51.63],[-0.705,51.6]]],"projection":"EPSG:4326","scale_m":111319.49079327357,"tile_id":9}}]}

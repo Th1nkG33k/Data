@@ -1,0 +1,40 @@
+{
+  "tile_id": "30",
+  "tile_name": "tile 30",
+  "source_s2_path": "C:\\Uni\\Terra-AID\\Data\\Datasets\\HS2\\Raw\\S2\\images\\tile 30\\HS2_tile_30.tif",
+  "source_tile_folder": "HS2",
+  "bands": [
+    "B2",
+    "B3",
+    "B4",
+    "B8",
+    "B11",
+    "B12",
+    "SCL",
+    "NDVI",
+    "BSI"
+  ],
+  "height": 335,
+  "width": 558,
+  "crs": "EPSG:4326",
+  "qc_path": "C:\\Uni\\Terra-AID\\Data\\Datasets\\HS2\\Dataset\\tile 30\\QC.tif",
+  "indices_path": "C:\\Uni\\Terra-AID\\Data\\Datasets\\HS2\\Dataset\\tile 30\\indices.tif",
+  "model_input_path": "C:\\Uni\\Terra-AID\\Data\\Datasets\\HS2\\Dataset\\tile 30\\model_input.tif",
+  "valid_mask_path": "C:\\Uni\\Terra-AID\\Data\\Datasets\\HS2\\Dataset\\tile 30\\valid_mask.tif",
+  "model_input_channels": [
+    "B2",
+    "B3",
+    "B4",
+    "B8",
+    "B11",
+    "B12",
+    "NDVI",
+    "BSI"
+  ],
+  "model_input_channel_count": 8,
+  "model_input_nan_fraction": 0.0,
+  "valid_pixel_fraction": 0.9997699673674637,
+  "profile_name": "derived_8ch",
+  "s2_path": "C:\\Uni\\Terra-AID\\Data\\Datasets\\HS2\\Dataset\\tile 30\\S2_stack.tif",
+  "has_ground_truth": false
+}

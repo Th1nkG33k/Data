@@ -1,0 +1,67 @@
+dataset:
+  name: HS2
+  version: '1.0'
+  stage: statistics_generated
+  tile_count: 33
+  role: predictive
+  structure: aoi_grid
+paths:
+  root: Data/Datasets/HS2
+  raw_s2: Raw/S2
+  raw_dem: Raw/DEM
+  raw_soil: Raw/Soil
+  raw_ground_truth: Raw/GroundTruth
+  processed_tiles: Dataset
+  visuals_dir: Visuals
+  tile_manifest: tile_manifest.csv
+  channel_stats: channel_stats.json
+tile_structure:
+  width: 558
+  height: 335
+  tile_format: tif
+AOI:
+  min_lat: 51.50499664652118
+  max_lat: 52.01506006484424
+  min_lon: -1.8450497620530852
+  max_lon: -0.10492322518516012
+bands:
+  included:
+  - B2
+  - B3
+  - B4
+  - B8
+  - B11
+  - B12
+  - SCL
+  - NDVI
+  - BSI
+  rgb_order:
+  - B4
+  - B3
+  - B2
+crs:
+  epsg: 4326
+normalisation:
+  method: robust_zscore
+  stats_source: channel_stats.json
+  clip:
+  - -5.0
+  - 5.0
+processing:
+  resolution: 10m
+  include_dem: false
+  include_soil: false
+  include_indices: true
+  include_qc_mask: true
+  allow_categorical_inputs: false
+labels:
+  type: vector
+  source_root: Raw/GroundTruth
+  rasterized_name: ground_truth.tif
+  geometry_type: polygon
+  applies_to: per_tile
+  crs: EPSG:4326
+provenance:
+  created_by: HS2 ground-truth toolkit
+  version: 3.0-tile-layout
+  note: HS2 evaluation dataset using Terra-AID raw and processed tile folders.

@@ -1,0 +1,41 @@
+{
+  "tile_id": "0",
+  "tile_name": "tile 0",
+  "source_s2_path": "C:\\Uni\\Terra-AID\\Data\\Datasets\\HS2\\Raw\\S2\\images\\tile 0\\HS2_tile_0.tif",
+  "source_tile_folder": "HS2",
+  "bands": [
+    "B2",
+    "B3",
+    "B4",
+    "B8",
+    "B11",
+    "B12",
+    "SCL",
+    "NDVI",
+    "BSI"
+  ],
+  "height": 335,
+  "width": 558,
+  "crs": "EPSG:4326",
+  "qc_path": "C:\\Uni\\Terra-AID\\Data\\Datasets\\HS2\\Dataset\\tile 0\\QC.tif",
+  "indices_path": "C:\\Uni\\Terra-AID\\Data\\Datasets\\HS2\\Dataset\\tile 0\\indices.tif",
+  "model_input_path": "C:\\Uni\\Terra-AID\\Data\\Datasets\\HS2\\Dataset\\tile 0\\model_input.tif",
+  "valid_mask_path": "C:\\Uni\\Terra-AID\\Data\\Datasets\\HS2\\Dataset\\tile 0\\valid_mask.tif",
+  "model_input_channels": [
+    "B2",
+    "B3",
+    "B4",
+    "B8",
+    "B11",
+    "B12",
+    "NDVI",
+    "BSI"
+  ],
+  "model_input_channel_count": 8,
+  "model_input_nan_fraction": 0.0,
+  "valid_pixel_fraction": 0.9997592681752527,
+  "profile_name": "derived_8ch",
+  "s2_path": "C:\\Uni\\Terra-AID\\Data\\Datasets\\HS2\\Dataset\\tile 0\\S2_stack.tif",
+  "ground_truth_path": "C:\\Uni\\Terra-AID\\Data\\Datasets\\HS2\\Dataset\\tile 0\\ground_truth.tif",
+  "has_ground_truth": true
+}
