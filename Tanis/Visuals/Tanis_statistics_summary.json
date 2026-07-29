@@ -1,0 +1,190 @@
+{
+  "dataset": "Tanis",
+  "processed_root": "C:\\Uni\\Terra-AID\\Data\\Datasets\\Tanis\\Dataset",
+  "visuals_dir": "C:\\Uni\\Terra-AID\\Data\\Datasets\\Tanis\\Visuals",
+  "tile_count_used": 30,
+  "sample_count": 205636,
+  "channel_count": 8,
+  "channels": [
+    "B2",
+    "B3",
+    "B4",
+    "B8",
+    "B11",
+    "B12",
+    "NDVI",
+    "BSI"
+  ],
+  "umap_method": "UMAP",
+  "umap_fallback_reason": null,
+  "umap_sample_count": 50000,
+  "skipped_tiles": [],
+  "outputs": {
+    "band_histograms": "Tanis_band_histograms.png",
+    "correlation_matrix": "Tanis_correlation_matrix.json",
+    "correlation_heatmap": "Tanis_correlation_heatmap.png",
+    "umap_embedding": "Tanis_umap_raw_embedding.npy",
+    "umap_plot": "Tanis_umap_raw.png",
+    "clustering_tif": "Tanis_clustering.tif",
+    "clustering_plot": "Tanis_clustering.png",
+    "cluster_centres": "Tanis_cluster_centres.json"
+  },
+  "clustering": {
+    "cluster_count": 6,
+    "stitched_tif": "Tanis_clustering.tif",
+    "stitched_png": "Tanis_clustering.png",
+    "cluster_centres": "Tanis_cluster_centres.json",
+    "tiles": [
+      {
+        "tile": "tile 0",
+        "cluster_tif": "C:\\Uni\\Terra-AID\\Data\\Datasets\\Tanis\\Dataset\\tile 0\\cluster_map.tif",
+        "cluster_png": "C:\\Uni\\Terra-AID\\Data\\Datasets\\Tanis\\Dataset\\tile 0\\cluster_map.png"
+      },
+      {
+        "tile": "tile 1",
+        "cluster_tif": "C:\\Uni\\Terra-AID\\Data\\Datasets\\Tanis\\Dataset\\tile 1\\cluster_map.tif",
+        "cluster_png": "C:\\Uni\\Terra-AID\\Data\\Datasets\\Tanis\\Dataset\\tile 1\\cluster_map.png"
+      },
+      {
+        "tile": "tile 2",
+        "cluster_tif": "C:\\Uni\\Terra-AID\\Data\\Datasets\\Tanis\\Dataset\\tile 2\\cluster_map.tif",
+        "cluster_png": "C:\\Uni\\Terra-AID\\Data\\Datasets\\Tanis\\Dataset\\tile 2\\cluster_map.png"
+      },
+      {
+        "tile": "tile 3",
+        "cluster_tif": "C:\\Uni\\Terra-AID\\Data\\Datasets\\Tanis\\Dataset\\tile 3\\cluster_map.tif",
+        "cluster_png": "C:\\Uni\\Terra-AID\\Data\\Datasets\\Tanis\\Dataset\\tile 3\\cluster_map.png"
+      },
+      {
+        "tile": "tile 4",
+        "cluster_tif": "C:\\Uni\\Terra-AID\\Data\\Datasets\\Tanis\\Dataset\\tile 4\\cluster_map.tif",
+        "cluster_png": "C:\\Uni\\Terra-AID\\Data\\Datasets\\Tanis\\Dataset\\tile 4\\cluster_map.png"
+      },
+      {
+        "tile": "tile 5",
+        "cluster_tif": "C:\\Uni\\Terra-AID\\Data\\Datasets\\Tanis\\Dataset\\tile 5\\cluster_map.tif",
+        "cluster_png": "C:\\Uni\\Terra-AID\\Data\\Datasets\\Tanis\\Dataset\\tile 5\\cluster_map.png"
+      },
+      {
+        "tile": "tile 6",
+        "cluster_tif": "C:\\Uni\\Terra-AID\\Data\\Datasets\\Tanis\\Dataset\\tile 6\\cluster_map.tif",
+        "cluster_png": "C:\\Uni\\Terra-AID\\Data\\Datasets\\Tanis\\Dataset\\tile 6\\cluster_map.png"
+      },
+      {
+        "tile": "tile 7",
+        "cluster_tif": "C:\\Uni\\Terra-AID\\Data\\Datasets\\Tanis\\Dataset\\tile 7\\cluster_map.tif",
+        "cluster_png": "C:\\Uni\\Terra-AID\\Data\\Datasets\\Tanis\\Dataset\\tile 7\\cluster_map.png"
+      },
+      {
+        "tile": "tile 8",
+        "cluster_tif": "C:\\Uni\\Terra-AID\\Data\\Datasets\\Tanis\\Dataset\\tile 8\\cluster_map.tif",
+        "cluster_png": "C:\\Uni\\Terra-AID\\Data\\Datasets\\Tanis\\Dataset\\tile 8\\cluster_map.png"
+      },
+      {
+        "tile": "tile 9",
+        "cluster_tif": "C:\\Uni\\Terra-AID\\Data\\Datasets\\Tanis\\Dataset\\tile 9\\cluster_map.tif",
+        "cluster_png": "C:\\Uni\\Terra-AID\\Data\\Datasets\\Tanis\\Dataset\\tile 9\\cluster_map.png"
+      },
+      {
+        "tile": "tile 10",
+        "cluster_tif": "C:\\Uni\\Terra-AID\\Data\\Datasets\\Tanis\\Dataset\\tile 10\\cluster_map.tif",
+        "cluster_png": "C:\\Uni\\Terra-AID\\Data\\Datasets\\Tanis\\Dataset\\tile 10\\cluster_map.png"
+      },
+      {
+        "tile": "tile 11",
+        "cluster_tif": "C:\\Uni\\Terra-AID\\Data\\Datasets\\Tanis\\Dataset\\tile 11\\cluster_map.tif",
+        "cluster_png": "C:\\Uni\\Terra-AID\\Data\\Datasets\\Tanis\\Dataset\\tile 11\\cluster_map.png"
+      },
+      {
+        "tile": "tile 12",
+        "cluster_tif": "C:\\Uni\\Terra-AID\\Data\\Datasets\\Tanis\\Dataset\\tile 12\\cluster_map.tif",
+        "cluster_png": "C:\\Uni\\Terra-AID\\Data\\Datasets\\Tanis\\Dataset\\tile 12\\cluster_map.png"
+      },
+      {
+        "tile": "tile 13",
+        "cluster_tif": "C:\\Uni\\Terra-AID\\Data\\Datasets\\Tanis\\Dataset\\tile 13\\cluster_map.tif",
+        "cluster_png": "C:\\Uni\\Terra-AID\\Data\\Datasets\\Tanis\\Dataset\\tile 13\\cluster_map.png"
+      },
+      {
+        "tile": "tile 14",
+        "cluster_tif": "C:\\Uni\\Terra-AID\\Data\\Datasets\\Tanis\\Dataset\\tile 14\\cluster_map.tif",
+        "cluster_png": "C:\\Uni\\Terra-AID\\Data\\Datasets\\Tanis\\Dataset\\tile 14\\cluster_map.png"
+      },
+      {
+        "tile": "tile 15",
+        "cluster_tif": "C:\\Uni\\Terra-AID\\Data\\Datasets\\Tanis\\Dataset\\tile 15\\cluster_map.tif",
+        "cluster_png": "C:\\Uni\\Terra-AID\\Data\\Datasets\\Tanis\\Dataset\\tile 15\\cluster_map.png"
+      },
+      {
+        "tile": "tile 16",
+        "cluster_tif": "C:\\Uni\\Terra-AID\\Data\\Datasets\\Tanis\\Dataset\\tile 16\\cluster_map.tif",
+        "cluster_png": "C:\\Uni\\Terra-AID\\Data\\Datasets\\Tanis\\Dataset\\tile 16\\cluster_map.png"
+      },
+      {
+        "tile": "tile 17",
+        "cluster_tif": "C:\\Uni\\Terra-AID\\Data\\Datasets\\Tanis\\Dataset\\tile 17\\cluster_map.tif",
+        "cluster_png": "C:\\Uni\\Terra-AID\\Data\\Datasets\\Tanis\\Dataset\\tile 17\\cluster_map.png"
+      },
+      {
+        "tile": "tile 18",
+        "cluster_tif": "C:\\Uni\\Terra-AID\\Data\\Datasets\\Tanis\\Dataset\\tile 18\\cluster_map.tif",
+        "cluster_png": "C:\\Uni\\Terra-AID\\Data\\Datasets\\Tanis\\Dataset\\tile 18\\cluster_map.png"
+      },
+      {
+        "tile": "tile 19",
+        "cluster_tif": "C:\\Uni\\Terra-AID\\Data\\Datasets\\Tanis\\Dataset\\tile 19\\cluster_map.tif",
+        "cluster_png": "C:\\Uni\\Terra-AID\\Data\\Datasets\\Tanis\\Dataset\\tile 19\\cluster_map.png"
+      },
+      {
+        "tile": "tile 20",
+        "cluster_tif": "C:\\Uni\\Terra-AID\\Data\\Datasets\\Tanis\\Dataset\\tile 20\\cluster_map.tif",
+        "cluster_png": "C:\\Uni\\Terra-AID\\Data\\Datasets\\Tanis\\Dataset\\tile 20\\cluster_map.png"
+      },
+      {
+        "tile": "tile 21",
+        "cluster_tif": "C:\\Uni\\Terra-AID\\Data\\Datasets\\Tanis\\Dataset\\tile 21\\cluster_map.tif",
+        "cluster_png": "C:\\Uni\\Terra-AID\\Data\\Datasets\\Tanis\\Dataset\\tile 21\\cluster_map.png"
+      },
+      {
+        "tile": "tile 22",
+        "cluster_tif": "C:\\Uni\\Terra-AID\\Data\\Datasets\\Tanis\\Dataset\\tile 22\\cluster_map.tif",
+        "cluster_png": "C:\\Uni\\Terra-AID\\Data\\Datasets\\Tanis\\Dataset\\tile 22\\cluster_map.png"
+      },
+      {
+        "tile": "tile 23",
+        "cluster_tif": "C:\\Uni\\Terra-AID\\Data\\Datasets\\Tanis\\Dataset\\tile 23\\cluster_map.tif",
+        "cluster_png": "C:\\Uni\\Terra-AID\\Data\\Datasets\\Tanis\\Dataset\\tile 23\\cluster_map.png"
+      },
+      {
+        "tile": "tile 24",
+        "cluster_tif": "C:\\Uni\\Terra-AID\\Data\\Datasets\\Tanis\\Dataset\\tile 24\\cluster_map.tif",
+        "cluster_png": "C:\\Uni\\Terra-AID\\Data\\Datasets\\Tanis\\Dataset\\tile 24\\cluster_map.png"
+      },
+      {
+        "tile": "tile 25",
+        "cluster_tif": "C:\\Uni\\Terra-AID\\Data\\Datasets\\Tanis\\Dataset\\tile 25\\cluster_map.tif",
+        "cluster_png": "C:\\Uni\\Terra-AID\\Data\\Datasets\\Tanis\\Dataset\\tile 25\\cluster_map.png"
+      },
+      {
+        "tile": "tile 26",
+        "cluster_tif": "C:\\Uni\\Terra-AID\\Data\\Datasets\\Tanis\\Dataset\\tile 26\\cluster_map.tif",
+        "cluster_png": "C:\\Uni\\Terra-AID\\Data\\Datasets\\Tanis\\Dataset\\tile 26\\cluster_map.png"
+      },
+      {
+        "tile": "tile 27",
+        "cluster_tif": "C:\\Uni\\Terra-AID\\Data\\Datasets\\Tanis\\Dataset\\tile 27\\cluster_map.tif",
+        "cluster_png": "C:\\Uni\\Terra-AID\\Data\\Datasets\\Tanis\\Dataset\\tile 27\\cluster_map.png"
+      },
+      {
+        "tile": "tile 28",
+        "cluster_tif": "C:\\Uni\\Terra-AID\\Data\\Datasets\\Tanis\\Dataset\\tile 28\\cluster_map.tif",
+        "cluster_png": "C:\\Uni\\Terra-AID\\Data\\Datasets\\Tanis\\Dataset\\tile 28\\cluster_map.png"
+      },
+      {
+        "tile": "tile 29",
+        "cluster_tif": "C:\\Uni\\Terra-AID\\Data\\Datasets\\Tanis\\Dataset\\tile 29\\cluster_map.tif",
+        "cluster_png": "C:\\Uni\\Terra-AID\\Data\\Datasets\\Tanis\\Dataset\\tile 29\\cluster_map.png"
+      }
+    ]
+  }
+}
